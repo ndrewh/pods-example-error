@@ -13,6 +13,8 @@
 		4942A0B31D2B806E00AC2098 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4942A0B21D2B806E00AC2098 /* MessagesViewController.swift */; };
 		4942A0B61D2B806E00AC2098 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4942A0B41D2B806E00AC2098 /* MainInterface.storyboard */; };
 		4942A0B81D2B806E00AC2098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4942A0B71D2B806E00AC2098 /* Assets.xcassets */; };
+		C269916F9582AEFDE6EE08BF /* Pods_ExampleMessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B2DFBDCC0B7AA0EFCDDA13 /* Pods_ExampleMessagesExtension.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EF7A3D5A08A4F527B3E8A20D /* Pods_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FA99C6A67ABCABBAAD2BE2 /* Pods_MessagesExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		39FA99C6A67ABCABBAAD2BE2 /* Pods_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8739D197CB45EC0DFECAE7 /* Pods-MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
 		4942A0A01D2B806E00AC2098 /* ExampleMessagesExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleMessagesExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4942A0A31D2B806E00AC2098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4942A0A51D2B806E00AC2098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,14 +53,27 @@
 		4942A0B51D2B806E00AC2098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		4942A0B71D2B806E00AC2098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4942A0B91D2B806E00AC2098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C8706A7F9C6A8EAABC85C36 /* Pods-ExampleMessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleMessagesExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleMessagesExtension/Pods-ExampleMessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
+		74D14B6E52F67B5858B79343 /* Pods-MessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		75B2DFBDCC0B7AA0EFCDDA13 /* Pods_ExampleMessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleMessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2725FB11391730C5625C24 /* Pods-ExampleMessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleMessagesExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleMessagesExtension/Pods-ExampleMessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25084F203D52D174E61392C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269916F9582AEFDE6EE08BF /* Pods_ExampleMessagesExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4942A0A71D2B806E00AC2098 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4942A0B01D2B806E00AC2098 /* Messages.framework in Frameworks */,
+				EF7A3D5A08A4F527B3E8A20D /* Pods_MessagesExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 				4942A0B11D2B806E00AC2098 /* MessagesExtension */,
 				4942A0AE1D2B806E00AC2098 /* Frameworks */,
 				4942A0A11D2B806E00AC2098 /* Products */,
+				A429C183340BB218230E972D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				4942A0AF1D2B806E00AC2098 /* Messages.framework */,
+				75B2DFBDCC0B7AA0EFCDDA13 /* Pods_ExampleMessagesExtension.framework */,
+				39FA99C6A67ABCABBAAD2BE2 /* Pods_MessagesExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +130,17 @@
 			path = MessagesExtension;
 			sourceTree = "<group>";
 		};
+		A429C183340BB218230E972D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF2725FB11391730C5625C24 /* Pods-ExampleMessagesExtension.debug.xcconfig */,
+				6C8706A7F9C6A8EAABC85C36 /* Pods-ExampleMessagesExtension.release.xcconfig */,
+				74D14B6E52F67B5858B79343 /* Pods-MessagesExtension.debug.xcconfig */,
+				3B8739D197CB45EC0DFECAE7 /* Pods-MessagesExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,8 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4942A0C01D2B806E00AC2098 /* Build configuration list for PBXNativeTarget "ExampleMessagesExtension" */;
 			buildPhases = (
+				5E56785BE771F7BEE5737F05 /* [CP] Check Pods Manifest.lock */,
 				4942A09E1D2B806E00AC2098 /* Resources */,
 				4942A0BF1D2B806E00AC2098 /* Embed App Extensions */,
+				25084F203D52D174E61392C0 /* Frameworks */,
+				963FB2ED6DC9B985116577EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4942A0BC1D2B806E00AC2098 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
 			buildPhases = (
+				0AD27E911F2C5101D7E2508F /* [CP] Check Pods Manifest.lock */,
 				4942A0A61D2B806E00AC2098 /* Sources */,
 				4942A0A71D2B806E00AC2098 /* Frameworks */,
 				4942A0A81D2B806E00AC2098 /* Resources */,
+				1F2A50777B2495CC2C389110 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +245,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD27E911F2C5101D7E2508F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F2A50777B2495CC2C389110 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E56785BE771F7BEE5737F05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		963FB2ED6DC9B985116577EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleMessagesExtension/Pods-ExampleMessagesExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4942A0A61D2B806E00AC2098 /* Sources */ = {
@@ -330,6 +429,7 @@
 		};
 		4942A0BD1D2B806E00AC2098 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D14B6E52F67B5858B79343 /* Pods-MessagesExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
@@ -343,6 +443,7 @@
 		};
 		4942A0BE1D2B806E00AC2098 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8739D197CB45EC0DFECAE7 /* Pods-MessagesExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
@@ -356,6 +457,7 @@
 		};
 		4942A0C11D2B806E00AC2098 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2725FB11391730C5625C24 /* Pods-ExampleMessagesExtension.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -369,6 +471,7 @@
 		};
 		4942A0C21D2B806E00AC2098 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8706A7F9C6A8EAABC85C36 /* Pods-ExampleMessagesExtension.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -399,6 +502,7 @@
 				4942A0BE1D2B806E00AC2098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4942A0C01D2B806E00AC2098 /* Build configuration list for PBXNativeTarget "ExampleMessagesExtension" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +511,7 @@
 				4942A0C21D2B806E00AC2098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
